@@ -1,4 +1,6 @@
 # RPageControl
+
+![Presentation](https://lh3.googleusercontent.com/-MshkX-Za3Vs/VnPuucMWhPI/AAAAAAAAGGY/WGo_qjeC54w/s0/RPageControl.gif "RPageControl.gif")
 Basic Custom PageControl for **Swift**
 
 ###Installation 
