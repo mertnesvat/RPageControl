@@ -30,7 +30,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         var co = 1
         for pageC in pageControl {
-            pageC.activeImageName = "\(co)_pagingSelected"
+    
             pageC.passiveImageName = "\(co)_pagingUnselected"
             pageC.spacing = CGFloat(4 + co)
             pageC.imageSize = CGSize(width: 15+co, height: 15+co)

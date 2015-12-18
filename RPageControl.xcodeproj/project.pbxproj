@@ -15,6 +15,7 @@
 		216470C51C217FA000E34A5E /* RPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216470C41C217FA000E34A5E /* RPageControlTests.swift */; };
 		216470D01C217FA000E34A5E /* RPageControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216470CF1C217FA000E34A5E /* RPageControlUITests.swift */; };
 		216470DF1C217FDD00E34A5E /* RPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216470DE1C217FDD00E34A5E /* RPageControl.swift */; };
+		21C70DAF1C244DE8001D33DD /* RPageControl.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C70DAE1C244DE8001D33DD /* RPageControl.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		216470CF1C217FA000E34A5E /* RPageControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPageControlUITests.swift; sourceTree = "<group>"; };
 		216470D11C217FA000E34A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		216470DE1C217FDD00E34A5E /* RPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPageControl.swift; sourceTree = "<group>"; };
+		21C70DAE1C244DE8001D33DD /* RPageControl.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RPageControl.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				216470DE1C217FDD00E34A5E /* RPageControl.swift */,
+				21C70DAE1C244DE8001D33DD /* RPageControl.xcassets */,
 			);
 			path = RPageControl;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				216470BA1C217F9F00E34A5E /* LaunchScreen.storyboard in Resources */,
+				21C70DAF1C244DE8001D33DD /* RPageControl.xcassets in Resources */,
 				216470B71C217F9F00E34A5E /* Assets.xcassets in Resources */,
 				216470B51C217F9F00E34A5E /* Main.storyboard in Resources */,
 			);
@@ -496,6 +500,7 @@
 				216470D61C217FA000E34A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		216470D71C217FA000E34A5E /* Build configuration list for PBXNativeTarget "RPageControlTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				216470D91C217FA000E34A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		216470DA1C217FA000E34A5E /* Build configuration list for PBXNativeTarget "RPageControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				216470DC1C217FA000E34A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
