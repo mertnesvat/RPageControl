@@ -432,7 +432,6 @@
 			isa = PBXGroup;
 			children = (
 				77F7AC7BE69B7585B5417F067729AA10 /* RPageControl.swift */,
-				99EFEDC7611A758767DB37148B26B522 /* RPageControl.xcassets */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -488,7 +487,8 @@
 				D4A3B8904918F3F633F9F2984D1A0B2D /* defaultActiveBullet.imageset */,
 				EE9BFAD3EF8570D2558B4AE61FED26F4 /* defaultPassiveBullet.imageset */,
 			);
-			path = RPageControl.xcassets;
+			name = RPageControl.xcassets;
+			path = ../../../../Pod/Classes/RPageControl.xcassets;
 			sourceTree = "<group>";
 		};
 		A38D6BB1DB299F6B8F28F8C751E1D642 /* Pod */ = {
@@ -510,6 +510,7 @@
 		BEB2E635F55F8A46D2501F8EE96EBAD9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				99EFEDC7611A758767DB37148B26B522 /* RPageControl.xcassets */,
 				A1AA5164396488C25C2EB4E7CDDF37D9 /* Info.plist */,
 				D3E4206FDB4D473B59FB5CB415078E87 /* RPageControl.modulemap */,
 				2D59EEEAC5265EAF790B1A3438BE3A17 /* RPageControl.xcconfig */,
