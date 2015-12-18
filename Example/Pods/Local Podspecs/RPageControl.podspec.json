@@ -1,0 +1,25 @@
+{
+  "name": "RPageControl",
+  "version": "0.1.0",
+  "summary": "Simple custom page control made with swift.",
+  "description": "Custom Page Control made with Swift. You can simply change images and give page number ready to go!",
+  "homepage": "https://github.com/mertnesvat/RPageControl",
+  "license": "MIT",
+  "authors": {
+    "mert": "mertnesvat@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mertnesvat/RPageControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "RPageControl": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

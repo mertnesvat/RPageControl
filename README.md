@@ -12,13 +12,13 @@ Download project drag & drop RPageControl.swift to your project.
 2 - Drag a view and set class RPageControl and than set parameters like below;
 
 
-            pageControl.activeImageName = "activeImageName"
-            pageControl.passiveImageName = "passiveImageName"
-            pageControl.pageCount = pageNumber
-           
+pageControl.activeImageName = "activeImageName"
+pageControl.passiveImageName = "passiveImageName"
+pageControl.pageCount = pageNumber
+
 You can also change **spacing** and **image size**
 
-            pageControl.spacing = CGFloat(5)
-            pageControl.imageSize = CGSize(width: 15, height: 15)
+pageControl.spacing = CGFloat(5)
+pageControl.imageSize = CGSize(width: 15, height: 15)
 
 PS : You can add autlayout attributes to your view, like in sample project. Lastly *Hi! Dota2 Lovers!* 

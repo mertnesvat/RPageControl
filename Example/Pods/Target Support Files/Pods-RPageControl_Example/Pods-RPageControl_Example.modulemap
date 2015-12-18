@@ -1,0 +1,6 @@
+framework module Pods_RPageControl_Example {
+  umbrella header "Pods-RPageControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

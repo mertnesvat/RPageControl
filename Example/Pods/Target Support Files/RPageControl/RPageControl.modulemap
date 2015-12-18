@@ -1,0 +1,6 @@
+framework module RPageControl {
+  umbrella header "RPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

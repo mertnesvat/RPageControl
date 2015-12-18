@@ -1,0 +1,6 @@
+framework module Pods_RPageControl_Tests {
+  umbrella header "Pods-RPageControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

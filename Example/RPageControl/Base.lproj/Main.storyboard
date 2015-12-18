@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RPageControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G3n-D5-UCr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <animations/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Gxs-CV-aW1"/>
+                                </connections>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangle" translatesAutoresizingMaskIntoConstraints="NO" id="vl5-P1-Wg2">
+                                <rect key="frame" x="0.0" y="271" width="600" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vl5-P1-Wg2" secondAttribute="height" multiplier="125:6" id="v55-P3-gYC"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CcH-Ec-iun" customClass="RPageControl" customModule="RPageControl_Example" customModuleProvider="target">
+                                <rect key="frame" x="295" y="300" width="10" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gd4-Gr-VxE" customClass="RPageControl" customModule="RPageControl_Example" customModuleProvider="target">
+                                <rect key="frame" x="295" y="375" width="10" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmI-5c-aDf" customClass="RPageControl" customModule="RPageControl_Example" customModuleProvider="target">
+                                <rect key="frame" x="295" y="450" width="10" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pn-GU-hL1" customClass="RPageControl" customModule="RPageControl_Example" customModuleProvider="target">
+                                <rect key="frame" x="295" y="525" width="10" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="gGn-HX-a9a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9pn-GU-hL1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.125" id="0SA-IT-TEC"/>
+                            <constraint firstItem="G3n-D5-UCr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="1sq-j4-hJf"/>
+                            <constraint firstItem="vl5-P1-Wg2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6WR-8p-Llc"/>
+                            <constraint firstItem="kmI-5c-aDf" firstAttribute="top" secondItem="Gd4-Gr-VxE" secondAttribute="bottom" id="6q1-LI-ZsB"/>
+                            <constraint firstItem="kmI-5c-aDf" firstAttribute="height" secondItem="9pn-GU-hL1" secondAttribute="height" id="Cqj-FN-D5h"/>
+                            <constraint firstItem="vl5-P1-Wg2" firstAttribute="bottom" secondItem="G3n-D5-UCr" secondAttribute="bottom" id="EhM-vO-2dX"/>
+                            <constraint firstItem="CcH-Ec-iun" firstAttribute="height" secondItem="Gd4-Gr-VxE" secondAttribute="height" id="ErP-cd-KZ5"/>
+                            <constraint firstItem="Gd4-Gr-VxE" firstAttribute="height" secondItem="kmI-5c-aDf" secondAttribute="height" id="HBb-Y3-g83"/>
+                            <constraint firstItem="Gd4-Gr-VxE" firstAttribute="width" secondItem="kmI-5c-aDf" secondAttribute="width" id="NA7-Hf-hSt"/>
+                            <constraint firstItem="Gd4-Gr-VxE" firstAttribute="centerX" secondItem="kmI-5c-aDf" secondAttribute="centerX" id="Peb-lH-LrF"/>
+                            <constraint firstItem="kmI-5c-aDf" firstAttribute="width" secondItem="9pn-GU-hL1" secondAttribute="width" id="QRA-9I-FJ5"/>
+                            <constraint firstAttribute="trailing" secondItem="vl5-P1-Wg2" secondAttribute="trailing" id="SJL-zw-pLF"/>
+                            <constraint firstItem="CcH-Ec-iun" firstAttribute="width" secondItem="Gd4-Gr-VxE" secondAttribute="width" id="VEG-a4-3mg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G3n-D5-UCr" secondAttribute="trailing" constant="-20" id="YGD-6K-0dF"/>
+                            <constraint firstItem="CcH-Ec-iun" firstAttribute="centerX" secondItem="Gd4-Gr-VxE" secondAttribute="centerX" id="bYa-sC-BEN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9pn-GU-hL1" secondAttribute="bottom" id="be9-tN-DG2"/>
+                            <constraint firstItem="kmI-5c-aDf" firstAttribute="centerX" secondItem="9pn-GU-hL1" secondAttribute="centerX" id="dW0-vw-QL5"/>
+                            <constraint firstItem="Gd4-Gr-VxE" firstAttribute="top" secondItem="CcH-Ec-iun" secondAttribute="bottom" id="eYg-cN-YaU"/>
+                            <constraint firstItem="G3n-D5-UCr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="hoM-Xe-yhz"/>
+                            <constraint firstItem="9pn-GU-hL1" firstAttribute="top" secondItem="kmI-5c-aDf" secondAttribute="bottom" id="lIC-jd-k71"/>
+                            <constraint firstItem="9pn-GU-hL1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="spb-vW-zgw"/>
+                            <constraint firstItem="G3n-D5-UCr" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="vaI-pC-nmQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="G3n-D5-UCr" id="jgB-Ma-70t"/>
+                        <outletCollection property="pageControl" destination="CcH-Ec-iun" collectionClass="NSMutableArray" id="X44-eS-UPG"/>
+                        <outletCollection property="pageControl" destination="Gd4-Gr-VxE" collectionClass="NSMutableArray" id="x5x-wJ-6T0"/>
+                        <outletCollection property="pageControl" destination="kmI-5c-aDf" collectionClass="NSMutableArray" id="Khi-oQ-F7B"/>
+                        <outletCollection property="pageControl" destination="9pn-GU-hL1" collectionClass="NSMutableArray" id="rDa-cx-x2G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="323" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="triangle" width="375" height="18"/>
+    </resources>
+</document>
