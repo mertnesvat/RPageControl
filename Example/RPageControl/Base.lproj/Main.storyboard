@@ -87,10 +87,10 @@
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="G3n-D5-UCr" id="jgB-Ma-70t"/>
-                        <outletCollection property="pageControl" destination="CcH-Ec-iun" collectionClass="NSMutableArray" id="X44-eS-UPG"/>
-                        <outletCollection property="pageControl" destination="Gd4-Gr-VxE" collectionClass="NSMutableArray" id="x5x-wJ-6T0"/>
-                        <outletCollection property="pageControl" destination="kmI-5c-aDf" collectionClass="NSMutableArray" id="Khi-oQ-F7B"/>
-                        <outletCollection property="pageControl" destination="9pn-GU-hL1" collectionClass="NSMutableArray" id="rDa-cx-x2G"/>
+                        <outletCollection property="pageControl" destination="CcH-Ec-iun" collectionClass="NSMutableArray" id="clT-WW-qTE"/>
+                        <outletCollection property="pageControl" destination="Gd4-Gr-VxE" collectionClass="NSMutableArray" id="wKX-Ay-5bw"/>
+                        <outletCollection property="pageControl" destination="kmI-5c-aDf" collectionClass="NSMutableArray" id="1FW-hB-UY0"/>
+                        <outletCollection property="pageControl" destination="9pn-GU-hL1" collectionClass="NSMutableArray" id="GnD-Or-XNL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -31,14 +31,14 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         
         var co = 1
-        for pageC in pageControl {
-            
-            pageC.passiveImageName = "\(co)_pagingUnselected"
-            pageC.spacing = CGFloat(4 + co)
-            pageC.imageSize = CGSize(width: 15+co, height: 15+co)
-            pageC.pageCount = heroCount
-            co++
-        }
+//        for pageC in pageControl {
+//            
+//            pageC.passiveImageName = "\(co)_pagingUnselected"
+//            pageC.spacing = CGFloat(4 + co)
+//            pageC.imageSize = CGSize(width: 15+co, height: 15+co)
+//            pageC.pageCount = heroCount
+//            co++
+//        }
         
         for index in 0...heroCount-1 {
             
@@ -61,9 +61,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         if let a = imageWidth {
             let index : Int = Int((scrollView.contentOffset.x + (self.view.frame.width/2)) / a)
             
-            for pageC in pageControl {
-                pageC.updateCurrentPageDisplay(withIndex: index)
-            }
+//            for pageC in pageControl {
+//                pageC.updateCurrentPageDisplay(withIndex: index)
+//            }
             
             
             for i in 0...imageList.count-1 {
